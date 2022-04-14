@@ -1,0 +1,31 @@
+{
+  "name": "musickit-js-typescript-support",
+  "version": "1.0.0",
+  "description": "Adds typescript support for Apple MusicKit JS without the use of namespace",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "pretty": "prettier -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanCBlue652/MusicKit-JS-Typescript-Support.git"
+  },
+  "keywords": [
+    "apple",
+    "musickit",
+    "typescript"
+  ],
+  "author": "Sean Cunningham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanCBlue652/MusicKit-JS-Typescript-Support/issues"
+  },
+  "homepage": "https://github.com/SeanCBlue652/MusicKit-JS-Typescript-Support#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "prettier": "^2.6.2"
+  }
+}
